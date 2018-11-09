@@ -1,10 +1,7 @@
-package com.service;
+package zhang.service;
 // Created by ZhangJian on 18/2/26.
 
-import com.alibaba.dubbo.common.logger.log4j.Log4jLogger;
-import com.service.Test;
 import org.apache.log4j.Logger;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 
@@ -13,7 +10,6 @@ import org.springframework.stereotype.Service;
 public class TestImpl implements Test {
 
     private Logger logger = Logger.getLogger(TestImpl.class);
-
 
     @Override
     public String zhang(String a) {
